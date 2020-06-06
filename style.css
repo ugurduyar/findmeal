@@ -1,0 +1,29 @@
+:root {
+  --primary-color: black;
+  --secondary-color: yellow;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
